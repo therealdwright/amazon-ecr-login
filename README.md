@@ -58,7 +58,7 @@ Logs in the local Docker client to one or more Amazon ECR Private registries or 
 #### Login to Amazon ECR Private, then build and push a Docker image masking the password:
 
 > [!WARNING]
-> Setting mask-password to true will prevent the password GitHub output from being shared between separate jobs.
+> Setting mask-password to true will prevent the password used to login to ECR from being shared between jobs.
 
 ```yaml
       - name: Login to Amazon ECR
